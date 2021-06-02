@@ -1048,3 +1048,381 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.02-10.37.33:493][568]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/StartupMapCDE82921493F7FF7DBE316B8846A81A1.tmp' to '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
 [2021.06.02-10.37.33:530][568]AssetCheck: New page: Asset Save: StartupMap
 [2021.06.02-10.37.33:530][568]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
+[2021.06.02-10.38.06:055][465]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.38.07:325][616]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.38.11:341][ 79]Cmd: TRANSACTION UNDO
+[2021.06.02-10.38.11:341][ 79]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2021.06.02-10.38.48:927][375]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.38.54:345][ 21]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.38.57:977][436]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2021.06.02-10.39.07:399][554]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.39.23:864][494]LogMaterial: Display: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2021.06.02-10.39.23:873][494]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.06.02-10.39.23:873][494]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.39.23:873][494]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.06.02-10.39.23:873][494]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.06.02-10.39.23:873][494]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.06.02-10.39.23:873][494]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.06.02-10.39.27:164][832]LogMaterial: Display: Material /Game/SoulCave/Environment/Materials/Foliage/M_Aspen_Tree_Bark.M_Aspen_Tree_Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2021.06.02-10.39.27:165][832]LogMaterial: Display: Missing cached shader map for material M_Aspen_Tree_Bark, compiling. 
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 47
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 41
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 29
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 23
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2021.06.02-10.39.27:194][832]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.06.02-10.39.27:194][832]LogMaterial: Display: Material /Game/SoulCave/Environment/Materials/Foliage/M_Aspen_Tree_Unlit_Blowing.M_Aspen_Tree_Unlit_Blowing needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2021.06.02-10.39.27:195][832]LogMaterial: Display: Missing cached shader map for material M_Aspen_Tree_Unlit_Blowing, compiling. 
+[2021.06.02-10.39.30:138][ 29]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 38
+[2021.06.02-10.39.30:277][ 39]Cmd: TRANSACTION UNDO
+[2021.06.02-10.39.30:277][ 39]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.39.30:864][ 62]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 33
+[2021.06.02-10.39.30:920][ 66]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 28
+[2021.06.02-10.39.30:949][ 68]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2021.06.02-10.39.31:471][105]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2021.06.02-10.39.31:866][133]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2021.06.02-10.39.32:143][150]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 14
+[2021.06.02-10.39.32:445][170]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.06.02-10.39.32:567][178]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2021.06.02-10.39.33:342][224]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.06.02-10.39.33:462][231]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.06.02-10.39.33:600][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2021.06.02-10.39.33:647][243]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2021.06.02-10.39.33:686][246]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2021.06.02-10.39.33:709][248]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2021.06.02-10.39.33:914][262]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2021.06.02-10.39.38:151][710]Cmd: TRANSACTION UNDO
+[2021.06.02-10.39.38:151][710]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.39.42:225][146]LogRenderer: Reallocating scene render targets to support 692x332 Format 26 NumSamples 1 (Frame:49116).
+[2021.06.02-10.39.42:246][147]LogRenderer: Reallocating scene render targets to support 700x332 Format 26 NumSamples 1 (Frame:49118).
+[2021.06.02-10.39.42:267][148]LogRenderer: Reallocating scene render targets to support 712x332 Format 26 NumSamples 1 (Frame:49120).
+[2021.06.02-10.39.42:288][149]LogRenderer: Reallocating scene render targets to support 724x332 Format 26 NumSamples 1 (Frame:49122).
+[2021.06.02-10.39.42:312][150]LogRenderer: Reallocating scene render targets to support 732x332 Format 26 NumSamples 1 (Frame:49124).
+[2021.06.02-10.39.42:332][151]LogRenderer: Reallocating scene render targets to support 736x332 Format 26 NumSamples 1 (Frame:49126).
+[2021.06.02-10.39.42:352][152]LogRenderer: Reallocating scene render targets to support 740x332 Format 26 NumSamples 1 (Frame:49128).
+[2021.06.02-10.39.42:380][153]LogRenderer: Reallocating scene render targets to support 744x332 Format 26 NumSamples 1 (Frame:49130).
+[2021.06.02-10.39.42:400][154]LogRenderer: Reallocating scene render targets to support 748x332 Format 26 NumSamples 1 (Frame:49132).
+[2021.06.02-10.39.42:420][155]LogRenderer: Reallocating scene render targets to support 752x332 Format 26 NumSamples 1 (Frame:49134).
+[2021.06.02-10.39.42:439][156]LogRenderer: Reallocating scene render targets to support 756x332 Format 26 NumSamples 1 (Frame:49136).
+[2021.06.02-10.39.42:468][157]LogRenderer: Reallocating scene render targets to support 768x332 Format 26 NumSamples 1 (Frame:49138).
+[2021.06.02-10.39.42:493][158]LogRenderer: Reallocating scene render targets to support 776x332 Format 26 NumSamples 1 (Frame:49140).
+[2021.06.02-10.39.42:534][160]LogRenderer: Reallocating scene render targets to support 780x332 Format 26 NumSamples 1 (Frame:49144).
+[2021.06.02-10.39.42:573][162]LogRenderer: Reallocating scene render targets to support 784x332 Format 26 NumSamples 1 (Frame:49148).
+[2021.06.02-10.39.42:661][168]LogRenderer: Reallocating scene render targets to support 788x332 Format 26 NumSamples 1 (Frame:49156).
+[2021.06.02-10.39.49:267][956]Cmd: TRANSACTION UNDO
+[2021.06.02-10.39.49:267][956]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.39.55:215][621]Cmd: TRANSACTION UNDO
+[2021.06.02-10.39.55:215][621]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.14:370][835]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.14:370][835]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.21:470][632]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.21:470][632]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.21:932][655]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.21:932][655]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.22:286][692]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.22:286][692]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.22:643][734]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.22:643][734]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.22:976][773]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.22:976][773]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.23:289][810]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.23:289][810]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.28:173][381]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.28:173][381]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.34:044][ 38]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.34:044][ 38]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.34:368][ 55]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.34:368][ 55]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.34:667][ 78]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.34:667][ 78]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.35:030][120]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.35:030][120]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.39:792][688]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.39:792][688]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.47:461][563]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.47:461][563]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.40.55:079][417]Cmd: TRANSACTION UNDO
+[2021.06.02-10.40.55:080][417]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.41.18:953][142]Cmd: TRANSACTION UNDO
+[2021.06.02-10.41.18:953][142]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.41.19:869][216]Cmd: TRANSACTION UNDO
+[2021.06.02-10.41.19:870][216]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.41.20:128][246]Cmd: TRANSACTION UNDO
+[2021.06.02-10.41.20:128][246]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.42.05:428][543]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.02-10.42.05:437][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-10.42.05:438][543]PIE: New page: Sesión PIE (reproducción en el editor): StartupMap (2 jun. 2021 14:42:05)
+[2021.06.02-10.42.05:439][543]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.02-10.42.05:440][543]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.02-10.42.05:440][543]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2021.06.02-10.42.05:565][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124268s)
+[2021.06.02-10.42.05:565][543]LogAIModule: Creating AISystem for world StartupMap
+[2021.06.02-10.42.05:565][543]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E083736600), frame # 68543
+[2021.06.02-10.42.05:566][543]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E10B337600), frame # 68543
+[2021.06.02-10.42.05:566][543]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2021.06.02-10.42.05:566][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.125649s)
+[2021.06.02-10.42.05:581][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-10.42.05:596][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-10.42.05:596][543]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-10.42.05:596][543]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-10.42.05:598][543]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-10.42.05:598][543]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-10.42.05:606][543]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.06.02-10.42.05:607][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-10.42.05:607][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-10.42.05:607][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-10.42.05:607][543]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.02-10.42.05:618][543]LogInit: FAudioDevice initialized.
+[2021.06.02-10.42.05:625][543]LogLoad: Game class is 'GameModeBase'
+[2021.06.02-10.42.05:641][543]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2021.06.02-12.42.05
+[2021.06.02-10.42.05:641][543]LogWorld: Bringing up level for play took: 0.014958
+[2021.06.02-10.42.05:641][543]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.06.02-10.42.05:645][543]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.06.02-10.42.05:647][543]PIE: El servidor ha iniciado la sesión
+[2021.06.02-10.42.05:647][543]PIE: Play in editor total start time 0,211 seconds.
+[2021.06.02-10.42.13:824][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-10.42.13:824][503]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2021.06.02-10.42.13:824][503]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-10.42.13:832][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-10.42.13:843][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-10.42.13:845][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-10.42.13:855][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-10.42.13:874][503]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E10B337600), frame # 69503
+[2021.06.02-10.42.13:874][503]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E083736600), frame # 69503
+[2021.06.02-10.42.13:877][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.06.02-10.42.13:946][504]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.06.02-10.42.37:054][246]LogStaticMesh: Generando la malla estática SM_LV_Soul_Foliage021SM...
+[2021.06.02-10.42.37:086][246]LogStaticMesh: Built static mesh [0.03s] /Game/SoulCave/Environment/Meshes/Nature/SM_LV_Soul_Foliage021SM.SM_LV_Soul_Foliage021SM
+[2021.06.02-10.42.38:936][450]LogMaterial: Display: Material /Game/SoulCave/Environment/Materials/Nature/M_Soul_Grass04.M_Soul_Grass04 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2021.06.02-10.42.38:942][450]LogMaterial: Display: Missing cached shader map for material M_Soul_Grass04, compiling. 
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 97
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 87
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 77
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 67
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 57
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 47
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 37
+[2021.06.02-10.42.38:987][451]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 27
+[2021.06.02-10.42.43:838][792]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2021.06.02-10.42.44:073][808]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.42.44:073][808]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2021.06.02-10.42.44:466][838]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.42.44:466][838]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.06.02-10.42.45:067][884]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.06.02-10.42.45:206][894]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.06.02-10.42.45:236][896]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2021.06.02-10.42.45:537][911]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2021.06.02-10.42.45:708][921]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2021.06.02-10.42.45:831][928]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2021.06.02-10.44.21:186][658]LogMaterial: Display: Material /Game/SoulCave/Environment/Materials/Nature/M_Soul_Leaves.M_Soul_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2021.06.02-10.44.21:187][658]LogMaterial: Display: Missing cached shader map for material M_Soul_Leaves, compiling. 
+[2021.06.02-10.44.21:238][659]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 97
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 87
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 77
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 67
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 57
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 47
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 37
+[2021.06.02-10.44.21:239][659]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 27
+[2021.06.02-10.44.25:884][985]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2021.06.02-10.44.26:118][  3]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2021.06.02-10.44.26:118][  3]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2021.06.02-10.44.26:370][ 23]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.44.26:506][ 33]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.06.02-10.44.27:104][ 80]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2021.06.02-10.44.27:252][ 91]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2021.06.02-10.44.27:252][ 91]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2021.06.02-10.44.27:579][115]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2021.06.02-10.44.27:799][131]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.06.02-10.44.27:863][136]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.06.02-10.44.31:767][588]Cmd: TRANSACTION UNDO
+[2021.06.02-10.44.31:767][588]LogEditorTransaction: Undo Edición de follage
+[2021.06.02-10.44.44:709][854]LogMaterial: Display: Material /Game/SoulCave/Environment/Materials/Foliage/M_Cave_Grass.M_Cave_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2021.06.02-10.44.44:712][854]LogMaterial: Display: Missing cached shader map for material M_Cave_Grass, compiling. 
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 97
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 87
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 77
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 67
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 57
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 47
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 37
+[2021.06.02-10.44.44:756][854]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 27
+[2021.06.02-10.44.44:758][854]LogMaterial: Display: Missing cached shader map for material M_Cave_Grass, compiling. 
+[2021.06.02-10.44.49:245][162]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 114
+[2021.06.02-10.44.49:405][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 104
+[2021.06.02-10.44.49:566][188]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 94
+[2021.06.02-10.44.49:713][199]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 84
+[2021.06.02-10.44.49:949][216]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 74
+[2021.06.02-10.44.50:835][284]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 64
+[2021.06.02-10.44.51:238][315]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 55
+[2021.06.02-10.44.51:790][357]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 48
+[2021.06.02-10.44.54:394][557]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 41
+[2021.06.02-10.44.55:467][633]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 35
+[2021.06.02-10.44.55:607][643]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 30
+[2021.06.02-10.44.55:704][650]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 26
+[2021.06.02-10.44.55:800][657]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2021.06.02-10.44.55:897][665]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 19
+[2021.06.02-10.44.55:978][667]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 16
+[2021.06.02-10.44.56:770][725]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2021.06.02-10.44.57:146][753]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2021.06.02-10.44.57:322][768]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2021.06.02-10.44.57:726][797]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2021.06.02-10.44.57:944][813]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2021.06.02-10.44.58:133][827]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2021.06.02-10.44.58:400][847]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2021.06.02-10.44.58:400][847]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2021.06.02-10.44.58:451][851]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.06.02-10.44.58:473][853]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.06.02-10.48.20:533][572]Cmd: TRANSACTION UNDO
+[2021.06.02-10.48.20:533][572]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.48.33:209][952]Cmd: TRANSACTION UNDO
+[2021.06.02-10.48.33:209][952]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.48.46:904][472]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2021.06.02-10.48.49:488][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1x1_cube2)
+[2021.06.02-10.48.50:985][942]LogEditorViewport: Clicking on Actor (CTRL LMB): DirectionalLight (Light Source)
+[2021.06.02-10.48.53:865][275]Cmd: TRANSACTION UNDO
+[2021.06.02-10.48.53:865][275]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.49.08:773][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1x1_cube2)
+[2021.06.02-10.49.19:157][884]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2021.06.02-10.49.19:731][939]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2021.06.02-10.49.21:368][121]Cmd: TRANSACTION UNDO
+[2021.06.02-10.49.21:368][121]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.49.26:511][650]Cmd: TRANSACTION UNDO
+[2021.06.02-10.49.26:512][650]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.49.36:424][619]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2021.06.02-10.49.38:051][759]LogEditorViewport: Clicking Background
+[2021.06.02-10.50.02:762][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.06.02-10.50.02:848][668]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.50.02:853][668]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.50.02:857][668]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.50.02:861][668]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.50.03:627][668]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/StartupMapA456FD86417591AFC894618C3CD72F4C.tmp' to '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2021.06.02-10.50.03:657][668]AssetCheck: New page: Asset Save: StartupMap
+[2021.06.02-10.50.03:657][668]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
+[2021.06.02-10.50.37:022][988]LogActorFactory: Actor Factory created SM_Cave_Arches
+[2021.06.02-10.50.39:358][254]LogActorFactory: Actor Factory created SM_Cave_Arches
+[2021.06.02-10.50.51:317][614]LogActorFactory: Actor Factory created SM_Cave_Arches
+[2021.06.02-10.50.52:172][703]LogActorFactory: Actor Factory created SM_Cave_Arches
+[2021.06.02-10.51.13:275][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches)
+[2021.06.02-10.51.14:251][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches2)
+[2021.06.02-10.51.15:020][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches)
+[2021.06.02-10.51.15:545][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches2)
+[2021.06.02-10.51.16:185][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches)
+[2021.06.02-10.51.21:633][895]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2021.06.02-10.51.24:482][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches2)
+[2021.06.02-10.51.28:320][290]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2021.06.02-10.51.40:914][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches2)
+[2021.06.02-10.51.43:831][217]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Arches)
+[2021.06.02-10.51.58:741][105]LogActorFactory: Actor Factory created SM_GDC2012_Throne_Interior_Chain_05
+[2021.06.02-10.51.59:445][147]LogActorFactory: Actor Factory created SM_GDC2012_Throne_Interior_Chain_05
+[2021.06.02-10.52.01:047][242]Cmd: TRANSACTION UNDO
+[2021.06.02-10.52.01:047][242]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.52.01:423][260]Cmd: TRANSACTION UNDO
+[2021.06.02-10.52.01:423][260]LogEditorTransaction: Undo Crear actores
+[2021.06.02-10.52.04:522][429]LogActorFactory: Actor Factory created SM_Statue_Crumble_RK
+[2021.06.02-10.52.06:307][535]LogActorFactory: Actor Factory created SM_Statue_Crumble_RK
+[2021.06.02-10.52.07:607][612]Cmd: DELETE
+[2021.06.02-10.52.07:607][612]Cmd: ACTOR DELETE
+[2021.06.02-10.52.07:650][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.02-10.52.07:660][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.06.02-10.52.07:666][612]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2021.06.02-10.52.14:301][  3]LogTexture: Display: Building textures: T_water_splash_1_M (AutoDXT, 512X512)
+[2021.06.02-10.52.14:301][  3]LogTexture: Display: Building textures: T_TilingNoise03_M (AutoDXT, 512X512)
+[2021.06.02-10.52.14:301][  3]LogMaterial: Display: Missing cached shader map for material M_WaveSplash_01, compiling. 
+[2021.06.02-10.52.14:355][  3]LogStaticMesh: Generando la malla estática SM_Splash_Sea...
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 135
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 125
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 115
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 105
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 95
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 85
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 75
+[2021.06.02-10.52.14:370][  3]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 65
+[2021.06.02-10.52.14:380][  3]LogStaticMesh: Built static mesh [0.02s] /Game/SoulCave/Environment/Meshes/Water/SM_Splash_Sea.SM_Splash_Sea
+[2021.06.02-10.52.14:400][  3]LogActorFactory: Actor Factory created SM_Splash_Sea
+[2021.06.02-10.52.15:605][ 72]LogActorFactory: Actor Factory created SM_Splash_Sea
+[2021.06.02-10.52.16:717][128]Cmd: TRANSACTION UNDO
+[2021.06.02-10.52.16:717][128]LogEditorTransaction: Undo Crear actores
+[2021.06.02-10.52.29:790][832]LogActorFactory: Actor Factory created SM_GDC2012_Throne_Interior_Chain_04_Holder
+[2021.06.02-10.52.30:140][849]LogActorFactory: Actor Factory created SM_GDC2012_Throne_Interior_Chain_04_Holder
+[2021.06.02-10.52.33:084][ 16]Cmd: TRANSACTION UNDO
+[2021.06.02-10.52.33:084][ 16]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.52.34:252][ 67]Cmd: TRANSACTION UNDO
+[2021.06.02-10.52.34:252][ 67]LogEditorTransaction: Undo Crear actores
+[2021.06.02-10.52.34:358][ 67]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 55
+[2021.06.02-10.52.35:120][ 95]LogActorFactory: Actor Factory created SM_Cave_Statue_Torso
+[2021.06.02-10.52.35:641][118]LogActorFactory: Actor Factory created SM_Cave_Statue_Torso
+[2021.06.02-10.52.35:695][119]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 48
+[2021.06.02-10.52.35:817][125]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 41
+[2021.06.02-10.52.41:836][482]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 35
+[2021.06.02-10.52.41:926][487]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 30
+[2021.06.02-10.52.43:098][556]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 26
+[2021.06.02-10.52.43:564][584]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2021.06.02-10.52.43:839][592]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 19
+[2021.06.02-10.52.44:971][641]Cmd: TRANSACTION UNDO
+[2021.06.02-10.52.44:971][641]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.52.47:723][760]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2021.06.02-10.52.49:837][868]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2021.06.02-10.52.50:220][888]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2021.06.02-10.52.50:677][909]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2021.06.02-10.52.52:142][987]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2021.06.02-10.52.53:035][ 21]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.06.02-10.52.54:325][ 96]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.06.02-10.52.55:131][142]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2021.06.02-10.52.55:936][190]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.06.02-10.52.56:288][209]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.06.02-10.52.56:454][219]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2021.06.02-10.53.04:557][692]LogActorFactory: Actor Factory created SM_Cave_Floor_Stairs_Quarter
+[2021.06.02-10.53.07:630][874]LogActorFactory: Actor Factory created SM_Cave_Floor_Stairs_Quarter
+[2021.06.02-10.53.09:879][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Statue_Torso)
+[2021.06.02-10.53.41:311][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Statue_Torso)
+[2021.06.02-10.53.42:437][952]Cmd: DELETE
+[2021.06.02-10.53.42:437][952]Cmd: ACTOR DELETE
+[2021.06.02-10.53.42:469][952]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.02-10.53.42:480][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.06.02-10.53.42:487][952]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2021.06.02-10.53.43:493][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Floor_Stairs_Quarter)
+[2021.06.02-10.53.58:517][911]Cmd: EDIT COPY
+[2021.06.02-10.53.58:735][924]Cmd: EDIT PASTE
+[2021.06.02-10.54.00:221][ 11]Cmd: TRANSACTION UNDO
+[2021.06.02-10.54.00:221][ 11]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.54.06:885][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Floor_Stairs_Quarter)
+[2021.06.02-10.54.08:228][482]Cmd: EDIT COPY
+[2021.06.02-10.54.08:411][493]Cmd: EDIT PASTE
+[2021.06.02-10.54.11:834][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Floor_Stairs_Quarter4)
+[2021.06.02-10.54.17:286][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Floor_Stairs_Quarter3)
+[2021.06.02-10.54.21:331][260]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2021.06.02-10.54.27:028][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Arches2)
+[2021.06.02-10.54.27:827][646]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Arches)
+[2021.06.02-10.54.55:434][294]LogActorFactory: Actor Factory created SM_Cave_Statue_Torso
+[2021.06.02-10.54.56:301][346]LogActorFactory: Actor Factory created SM_Cave_Statue_Torso
+[2021.06.02-10.55.01:770][672]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cave_Floor_Stairs_Quarter3)
+[2021.06.02-10.55.02:424][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Statue_Torso)
+[2021.06.02-10.55.12:148][287]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2021.06.02-10.55.20:923][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.06.02-10.55.21:733][807]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/StartupMap9C23A2FE48E33257B1A566848E8B4D2A.tmp' to '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2021.06.02-10.55.21:770][807]AssetCheck: New page: Asset Save: StartupMap
+[2021.06.02-10.55.21:770][807]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
+[2021.06.02-10.55.44:932][190]LogActorFactory: Actor Factory created SM_Statue_Crumble_RK
+[2021.06.02-10.55.45:470][222]LogActorFactory: Actor Factory created SM_Statue_Crumble_RK
+[2021.06.02-10.55.48:294][390]Cmd: TRANSACTION UNDO
+[2021.06.02-10.55.48:294][390]LogEditorTransaction: Undo Crear actores
+[2021.06.02-10.55.50:474][505]LogActorFactory: Actor Factory created SM_Cave_Statue_01
+[2021.06.02-10.55.50:835][525]LogActorFactory: Actor Factory created SM_Cave_Statue_01
+[2021.06.02-10.55.53:664][693]Cmd: EDIT CUT
+[2021.06.02-10.55.53:699][693]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.02-10.55.53:707][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.06.02-10.55.53:710][693]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2021.06.02-10.55.58:357][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.06.02-10.55.59:083][971]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/StartupMap796317A24F427CBC82565F9F17F6C056.tmp' to '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2021.06.02-10.55.59:114][971]AssetCheck: New page: Asset Save: StartupMap
+[2021.06.02-10.55.59:114][971]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
