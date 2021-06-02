@@ -1,8 +1,8 @@
-﻿Log file open, 06/02/21 12:18:23
+﻿Log file open, 06/02/21 12:23:03
 LogInit: Display: Running engine for game: ProyectoFinalVR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.209702
+LogStats: Stats thread started at 0.233278
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -144,7 +144,7 @@ LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  -EpicPortal -epicusername=Tusa6 -epicuserid=50734c734d1a49898d44ab733136021a -epiclocale=es
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -194,469 +194,470 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.06.02-10.18.24:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:033][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:035][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.06.02-10.18.24:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.06.02-10.18.24:036][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.06.02-10.18.24:036][  0]LogInit: Selected Device Profile: [Windows]
-[2021.06.02-10.18.24:036][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.06.02-10.18.24:036][  0]LogHAL: Display: Platform has ~ 16 GB [17002713088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.06.02-10.18.24:036][  0]LogInit: Going up to parent DeviceProfile []
-[2021.06.02-10.18.24:036][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.06.02-10.18.24:037][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.06.02-10.18.24:038][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
-[2021.06.02-10.18.24:038][  0]LogInit: Computer: DESKTOP-I18HI2B
-[2021.06.02-10.18.24:038][  0]LogInit: User: andre
-[2021.06.02-10.18.24:038][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.06.02-10.18.24:038][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.06.02-10.18.24:038][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2021.06.02-10.18.24:038][  0]LogMemory: Platform Memory Stats for Windows
-[2021.06.02-10.18.24:038][  0]LogMemory: Process Physical Memory: 114.92 MB used, 114.92 MB peak
-[2021.06.02-10.18.24:038][  0]LogMemory: Process Virtual Memory: 96.96 MB used, 96.96 MB peak
-[2021.06.02-10.18.24:038][  0]LogMemory: Physical Memory: 3479.64 MB used,  12735.41 MB free, 16215.05 MB total
-[2021.06.02-10.18.24:038][  0]LogMemory: Virtual Memory: 5166.62 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2021.06.02-10.18.24:044][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.06.02-10.18.24:069][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.06.02-10.18.24:069][  0]LogInit: Using OS detected language (es-ES).
-[2021.06.02-10.18.24:070][  0]LogInit: Using OS detected locale (es-ES).
-[2021.06.02-10.18.24:072][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2021.06.02-10.18.24:103][  0]LogInit: Setting process to per monitor DPI aware
-[2021.06.02-10.18.24:145][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.06.02-10.18.24:145][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.06.02-10.18.24:292][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.06.02-10.18.24:292][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.06.02-10.18.24:292][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.06.02-10.18.24:292][  0]LogD3D11RHI: D3D11 adapters:
-[2021.06.02-10.18.24:404][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2021.06.02-10.18.24:404][  0]LogD3D11RHI:       5980/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.06.02-10.18.24:429][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
-[2021.06.02-10.18.24:429][  0]LogD3D11RHI:       128/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.06.02-10.18.24:432][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.06.02-10.18.24:432][  0]LogD3D11RHI:       0/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.06.02-10.18.24:432][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.06.02-10.18.24:448][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.06.02-10.18.24:448][  0]LogD3D11RHI:     GPU DeviceId: 0x1f15 (for the marketing name, search the web for "GPU Device Id")
-[2021.06.02-10.18.24:448][  0]LogWindows: EnumDisplayDevices:
-[2021.06.02-10.18.24:449][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
-[2021.06.02-10.18.24:449][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.06.02-10.18.24:449][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.06.02-10.18.24:449][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.06.02-10.18.24:449][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.06.02-10.18.24:449][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.06.02-10.18.24:450][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.06.02-10.18.24:450][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2021.06.02-10.18.24:450][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2021.06.02-10.18.24:450][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
-[2021.06.02-10.18.24:450][  0]LogD3D11RHI:      Driver Date: 7-5-2020
-[2021.06.02-10.18.24:450][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2021.06.02-10.18.24:523][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.06.02-10.18.24:524][  0]LogD3D11RHI: Async texture creation enabled
-[2021.06.02-10.18.24:524][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.06.02-10.18.24:544][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2021.06.02-10.18.24:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.06.02-10.18.24:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.06.02-10.18.24:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.06.02-10.18.24:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.06.02-10.18.24:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.06.02-10.18.24:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.06.02-10.18.24:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.06.02-10.18.24:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.06.02-10.18.24:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.06.02-10.18.24:950][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.06.02-10.18.24:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.06.02-10.18.24:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.06.02-10.18.24:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.06.02-10.18.25:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.06.02-10.18.25:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.06.02-10.18.25:021][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.06.02-10.18.25:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.06.02-10.18.25:042][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.06.02-10.18.25:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.06.02-10.18.25:051][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.06.02-10.18.25:057][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.06.02-10.18.25:107][  0]LogShaderCompilers: Guid format shader working directory is -68 characters bigger than the processId version (../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Intermediate/Shaders/WorkingDirectory/13608/).
-[2021.06.02-10.18.25:107][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/andre/AppData/Local/Temp/UnrealShaderWorkingDir/399944374D3A86320EBC95A0DC5D2164/'.
-[2021.06.02-10.18.25:108][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.06.02-10.18.25:108][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.06.02-10.18.25:108][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.06.02-10.18.25:832][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.06.02-10.18.25:887][  0]LogDerivedDataCache: Loaded boot cache 0.05s 95MB C:/Users/andre/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.06.02-10.18.25:887][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/andre/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.06.02-10.18.25:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.06.02-10.18.25:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.06.02-10.18.25:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.06.02-10.18.25:887][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.06.02-10.18.25:896][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.06.02-10.18.25:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.06.02-10.18.25:897][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.06.02-10.18.25:898][  0]LogDerivedDataCache: Using Local data cache path C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.06.02-10.18.25:898][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.06.02-10.18.25:898][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.06.02-10.18.25:960][  0]LogSlate: Using FreeType 2.10.0
-[2021.06.02-10.18.25:960][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.06.02-10.18.25:991][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
-[2021.06.02-10.18.26:217][  0]LogInit: Selected Device Profile: [Windows]
-[2021.06.02-10.18.26:328][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.06.02-10.18.26:328][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.06.02-10.18.26:328][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.06.02-10.18.26:328][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.06.02-10.18.26:328][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.06.02-10.18.26:341][  0]LogNetVersion: ProyectoFinalVR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 420994400)
-[2021.06.02-10.18.26:818][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027E19A8DEC0), frame # 0
-[2021.06.02-10.18.26:819][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E199D7B00), frame # 0
-[2021.06.02-10.18.26:820][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E19A2E200), frame # 0
-[2021.06.02-10.18.26:876][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.050912 seconds
-[2021.06.02-10.18.26:881][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.06.02-10.18.26:881][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.06.02-10.18.26:881][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.06.02-10.18.27:199][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.06.02-10.18.27:203][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.06.02-10.18.27:282][  0]SourceControl: El control de código fuente está desactivado
-[2021.06.02-10.18.27:282][  0]SourceControl: El control de código fuente está desactivado
-[2021.06.02-10.18.27:285][  0]SourceControl: El control de código fuente está desactivado
-[2021.06.02-10.18.27:289][  0]SourceControl: El control de código fuente está desactivado
-[2021.06.02-10.18.27:297][  0]SourceControl: El control de código fuente está desactivado
-[2021.06.02-10.18.27:523][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.06.02-10.18.27:541][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.06.02-10.18.27:541][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.06.02-10.18.27:583][  0]LogOcInput: OculusInput pre-init called
-[2021.06.02-10.18.27:596][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.06.02-10.18.27:596][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.06.02-10.18.27:651][  0]LogEngine: Initializing Engine...
-[2021.06.02-10.18.27:656][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.06.02-10.18.27:656][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.06.02-10.18.27:656][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.06.02-10.18.27:772][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.06.02-10.18.27:779][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.06.02-10.18.27:779][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E208DBC00), frame # 0
-[2021.06.02-10.18.27:779][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E208E39C0), frame # 0
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.06.02-10.18.27:800][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.06.02-10.18.27:800][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.06.02-10.18.27:800][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.06.02-10.18.27:819][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.06.02-10.18.27:819][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.06.02-10.18.27:892][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
-[2021.06.02-10.18.27:896][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.06.02-10.18.27:899][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.06.02-10.18.27:899][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.06.02-10.18.27:900][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.06.02-10.18.27:900][  0]LogInit: FAudioDevice initialized.
-[2021.06.02-10.18.27:900][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.06.02-10.18.27:951][  0]LogDerivedDataCache: Saved boot cache 0.05s 95MB C:/Users/andre/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.06.02-10.18.27:954][  0]LogInit: Texture streaming: Enabled
-[2021.06.02-10.18.27:969][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.06.02-10.18.27:969][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.06.02-10.18.27:971][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.06.02-10.18.28:007][  0]LogInit: Transaction tracking system initialized
-[2021.06.02-10.18.28:028][  0]BlueprintLog: New page: Cargar el editor
-[2021.06.02-10.18.28:095][  0]LocalizationService: Localization service is disabled
-[2021.06.02-10.18.28:259][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.06.02-10.18.28:259][  0]LogCook: Display: Mobile HDR setting 1
-[2021.06.02-10.18.28:392][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/' took 0.01s
-[2021.06.02-10.18.28:663][  0]SourceControl: El control de código fuente está desactivado
-[2021.06.02-10.18.28:663][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.993
-[2021.06.02-10.18.28:664][  0]LightingResults: New page: Diseñar la iluminación
-[2021.06.02-10.18.28:664][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.06.02-10.18.28:664][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.06.02-10.18.28:664][  0]MapCheck: New page: Revisión del mapa
-[2021.06.02-10.18.28:664][  0]LightingResults: New page: Diseñar la iluminación
-[2021.06.02-10.18.28:679][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E208DBC00), frame # 0
-[2021.06.02-10.18.28:680][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E208E39C0), frame # 0
-[2021.06.02-10.18.28:680][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2021.06.02-10.18.28:749][  0]LogAIModule: Creating AISystem for world StartupMap
-[2021.06.02-10.18.28:749][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E20DC5A00), frame # 0
-[2021.06.02-10.18.28:749][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E20DA7B00), frame # 0
-[2021.06.02-10.18.28:757][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.06.02-10.18.28:771][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
-[2021.06.02-10.18.28:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.06.02-10.18.28:771][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,145ms to complete.
-[2021.06.02-10.18.28:771][  0]LogFileHelpers: Loading map 'StartupMap' took 0.107
-[2021.06.02-10.18.28:773][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.102
-[2021.06.02-10.18.28:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.06.02-10.18.28:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.06.02-10.18.28:901][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.06.02-10.18.28:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.06.02-10.18.28:919][  0]LogCollectionManager: Loaded 0 collections in 0.001580 seconds
-[2021.06.02-10.18.28:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Collections/' took 0.00s
-[2021.06.02-10.18.28:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Developers/andre/Collections/' took 0.00s
-[2021.06.02-10.18.28:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Collections/' took 0.00s
-[2021.06.02-10.18.28:953][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3427 classes and 821 folders.
-[2021.06.02-10.18.28:963][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.06.02-10.18.29:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.06.02-10.18.29:148][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
-[2021.06.02-10.18.29:226][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.06.02-10.18.29:232][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.06.02-10.18.29:244][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.06.02-10.18.29:324][  0]LogRenderer: Reallocating scene render targets to support 684x332 Format 26 NumSamples 1 (Frame:1).
-[2021.06.02-10.18.29:444][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.06.02-10.18.29:444][  0]LogLoad: (Engine Initialization) Total time: 6.77 seconds
-[2021.06.02-10.18.29:444][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.06.02-10.18.29:495][  0]LogAssetRegistry: Asset discovery search completed in 3.5051 seconds
-[2021.06.02-10.18.29:500][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.06.02-10.18.29:502][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.06.02-10.18.29:519][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.06.02-10.18.42:572][392]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.06.02-10.18.42:591][392]LogMaterial: Display: Missing cached shader map for material Standard_MasterMaterial, compiling. 
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.02-10.23.04:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.02-10.23.04:176][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:176][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:179][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.02-10.23.04:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.02-10.23.04:180][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.02-10.23.04:180][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.02-10.23.04:180][  0]LogHAL: Display: Platform has ~ 16 GB [17002713088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.02-10.23.04:180][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.02-10.23.04:180][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.02-10.23.04:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Scalability.ini]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.02-10.23.04:182][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Config/Windows/Engine.ini]
+[2021.06.02-10.23.04:183][  0]LogInit: Computer: DESKTOP-I18HI2B
+[2021.06.02-10.23.04:183][  0]LogInit: User: andre
+[2021.06.02-10.23.04:183][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.06.02-10.23.04:183][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.02-10.23.04:183][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.06.02-10.23.04:183][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.02-10.23.04:183][  0]LogMemory: Process Physical Memory: 115.01 MB used, 115.02 MB peak
+[2021.06.02-10.23.04:183][  0]LogMemory: Process Virtual Memory: 96.97 MB used, 96.97 MB peak
+[2021.06.02-10.23.04:183][  0]LogMemory: Physical Memory: 3724.38 MB used,  12490.68 MB free, 16215.05 MB total
+[2021.06.02-10.23.04:183][  0]LogMemory: Virtual Memory: 5166.62 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.06.02-10.23.04:189][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.06.02-10.23.04:222][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.02-10.23.04:222][  0]LogInit: Using OS detected language (es-ES).
+[2021.06.02-10.23.04:222][  0]LogInit: Using OS detected locale (es-ES).
+[2021.06.02-10.23.04:229][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2021.06.02-10.23.04:267][  0]LogInit: Setting process to per monitor DPI aware
+[2021.06.02-10.23.04:300][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.02-10.23.04:300][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.06.02-10.23.04:464][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.06.02-10.23.04:464][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.06.02-10.23.04:464][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.06.02-10.23.04:464][  0]LogD3D11RHI: D3D11 adapters:
+[2021.06.02-10.23.04:587][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2021.06.02-10.23.04:587][  0]LogD3D11RHI:       5980/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.06.02-10.23.04:618][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2021.06.02-10.23.04:618][  0]LogD3D11RHI:       128/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.06.02-10.23.04:620][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.06.02-10.23.04:620][  0]LogD3D11RHI:       0/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.06.02-10.23.04:620][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.06.02-10.23.04:637][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.06.02-10.23.04:637][  0]LogD3D11RHI:     GPU DeviceId: 0x1f15 (for the marketing name, search the web for "GPU Device Id")
+[2021.06.02-10.23.04:637][  0]LogWindows: EnumDisplayDevices:
+[2021.06.02-10.23.04:638][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2021.06.02-10.23.04:638][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.06.02-10.23.04:638][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.06.02-10.23.04:638][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.06.02-10.23.04:638][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.06.02-10.23.04:639][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.06.02-10.23.04:639][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.06.02-10.23.04:639][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.06.02-10.23.04:639][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2021.06.02-10.23.04:639][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2021.06.02-10.23.04:639][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2021.06.02-10.23.04:639][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2021.06.02-10.23.04:735][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.06.02-10.23.04:735][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.02-10.23.04:735][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.06.02-10.23.04:753][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.06.02-10.23.05:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.06.02-10.23.05:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.06.02-10.23.05:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.06.02-10.23.05:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.06.02-10.23.05:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.06.02-10.23.05:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.06.02-10.23.05:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.06.02-10.23.05:274][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.06.02-10.23.05:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.06.02-10.23.05:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.06.02-10.23.05:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.06.02-10.23.05:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.06.02-10.23.05:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.06.02-10.23.05:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.06.02-10.23.05:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.06.02-10.23.05:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.02-10.23.05:411][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.02-10.23.05:426][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.02-10.23.05:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.02-10.23.05:437][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.02-10.23.05:447][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.02-10.23.05:518][  0]LogShaderCompilers: Guid format shader working directory is -68 characters bigger than the processId version (../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Intermediate/Shaders/WorkingDirectory/15308/).
+[2021.06.02-10.23.05:518][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/andre/AppData/Local/Temp/UnrealShaderWorkingDir/FDC612CB439C08E1BD99A0AC5456C0DF/'.
+[2021.06.02-10.23.05:519][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.06.02-10.23.05:519][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.02-10.23.05:519][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.02-10.23.06:542][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.02-10.23.06:621][  0]LogDerivedDataCache: Loaded boot cache 0.08s 95MB C:/Users/andre/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.06.02-10.23.06:621][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/andre/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.06.02-10.23.06:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.02-10.23.06:621][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.02-10.23.06:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.02-10.23.06:621][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.06.02-10.23.06:635][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.02-10.23.06:635][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.02-10.23.06:635][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.06.02-10.23.06:637][  0]LogDerivedDataCache: Using Local data cache path C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.02-10.23.06:637][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.02-10.23.06:637][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.02-10.23.06:731][  0]LogSlate: Using FreeType 2.10.0
+[2021.06.02-10.23.06:732][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.06.02-10.23.06:766][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2021.06.02-10.23.07:079][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.02-10.23.07:229][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.02-10.23.07:229][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.02-10.23.07:229][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.02-10.23.07:229][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.02-10.23.07:229][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.02-10.23.07:252][  0]LogNetVersion: ProyectoFinalVR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 420994400)
+[2021.06.02-10.23.07:833][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E0E8309EC0), frame # 0
+[2021.06.02-10.23.07:833][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0E8263B00), frame # 0
+[2021.06.02-10.23.07:835][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0E82B6200), frame # 0
+[2021.06.02-10.23.07:904][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.060312 seconds
+[2021.06.02-10.23.07:910][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.06.02-10.23.07:910][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.06.02-10.23.07:910][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.02-10.23.08:363][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.02-10.23.08:368][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.02-10.23.08:456][  0]SourceControl: El control de código fuente está desactivado
+[2021.06.02-10.23.08:456][  0]SourceControl: El control de código fuente está desactivado
+[2021.06.02-10.23.08:460][  0]SourceControl: El control de código fuente está desactivado
+[2021.06.02-10.23.08:463][  0]SourceControl: El control de código fuente está desactivado
+[2021.06.02-10.23.08:471][  0]SourceControl: El control de código fuente está desactivado
+[2021.06.02-10.23.08:761][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.02-10.23.08:785][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.02-10.23.08:785][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.02-10.23.08:846][  0]LogOcInput: OculusInput pre-init called
+[2021.06.02-10.23.08:858][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.06.02-10.23.08:858][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.06.02-10.23.08:927][  0]LogEngine: Initializing Engine...
+[2021.06.02-10.23.08:930][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.06.02-10.23.08:930][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.06.02-10.23.08:932][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.06.02-10.23.09:078][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.02-10.23.09:086][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.02-10.23.09:086][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0EF0EFC00), frame # 0
+[2021.06.02-10.23.09:086][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0EF0F79C0), frame # 0
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-10.23.09:110][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-10.23.09:110][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-10.23.09:110][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-10.23.09:132][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-10.23.09:132][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-10.23.09:597][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.06.02-10.23.09:600][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-10.23.09:604][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-10.23.09:604][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-10.23.09:604][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.02-10.23.09:605][  0]LogInit: FAudioDevice initialized.
+[2021.06.02-10.23.09:606][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.02-10.23.09:670][  0]LogDerivedDataCache: Saved boot cache 0.06s 95MB C:/Users/andre/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.06.02-10.23.09:676][  0]LogInit: Texture streaming: Enabled
+[2021.06.02-10.23.09:694][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.02-10.23.09:694][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.02-10.23.09:695][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.02-10.23.09:738][  0]LogInit: Transaction tracking system initialized
+[2021.06.02-10.23.09:764][  0]BlueprintLog: New page: Cargar el editor
+[2021.06.02-10.23.09:849][  0]LocalizationService: Localization service is disabled
+[2021.06.02-10.23.10:059][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.06.02-10.23.10:059][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.02-10.23.10:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/' took 0.01s
+[2021.06.02-10.23.10:512][  0]SourceControl: El control de código fuente está desactivado
+[2021.06.02-10.23.10:512][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.254
+[2021.06.02-10.23.10:512][  0]LightingResults: New page: Diseñar la iluminación
+[2021.06.02-10.23.10:513][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-10.23.10:513][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-10.23.10:513][  0]MapCheck: New page: Revisión del mapa
+[2021.06.02-10.23.10:513][  0]LightingResults: New page: Diseñar la iluminación
+[2021.06.02-10.23.10:528][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E0EF0EFC00), frame # 0
+[2021.06.02-10.23.10:528][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E0EF0F79C0), frame # 0
+[2021.06.02-10.23.10:529][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.06.02-10.23.10:601][  0]LogAIModule: Creating AISystem for world StartupMap
+[2021.06.02-10.23.10:601][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0EF5C1A00), frame # 0
+[2021.06.02-10.23.10:601][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0EF59FB00), frame # 0
+[2021.06.02-10.23.10:608][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.02-10.23.10:625][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.06.02-10.23.10:625][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.02-10.23.10:625][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,184ms to complete.
+[2021.06.02-10.23.10:625][  0]LogFileHelpers: Loading map 'StartupMap' took 0.113
+[2021.06.02-10.23.10:627][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.369
+[2021.06.02-10.23.10:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-10.23.10:758][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-10.23.10:766][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-10.23.10:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-10.23.10:782][  0]LogCollectionManager: Loaded 0 collections in 0.002187 seconds
+[2021.06.02-10.23.10:801][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Collections/' took 0.00s
+[2021.06.02-10.23.10:801][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Developers/andre/Collections/' took 0.00s
+[2021.06.02-10.23.10:801][  0]LogFileCache: Scanning file cache for directory 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Collections/' took 0.00s
+[2021.06.02-10.23.10:801][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 3427 classes and 821 folders.
+[2021.06.02-10.23.10:807][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.06.02-10.23.10:866][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.06.02-10.23.10:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.06.02-10.23.10:923][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.02-10.23.10:927][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.02-10.23.10:935][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.02-10.23.11:035][  0]LogRenderer: Reallocating scene render targets to support 684x332 Format 26 NumSamples 1 (Frame:1).
+[2021.06.02-10.23.11:147][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.06.02-10.23.11:147][  0]LogLoad: (Engine Initialization) Total time: 8.89 seconds
+[2021.06.02-10.23.11:147][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.02-10.23.11:205][  0]LogAssetRegistry: Asset discovery search completed in 4.4407 seconds
+[2021.06.02-10.23.11:211][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2021.06.02-10.23.11:213][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.02-10.23.11:234][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.02-10.24.38:901][849]LogDirectoryWatcher: A directory notification failed for 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2021.06.02-10.24.38:901][849]LogDirectoryWatcher: A directory notification failed for 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Developers/andre/Collections/' because it could not be accessed. Aborting watch request...
+[2021.06.02-10.24.38:901][849]LogDirectoryWatcher: A directory notification failed for 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Collections/' because it could not be accessed. Aborting watch request...
