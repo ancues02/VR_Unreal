@@ -661,3 +661,390 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.02-10.24.38:901][849]LogDirectoryWatcher: A directory notification failed for 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Collections/' because it could not be accessed. Aborting watch request...
 [2021.06.02-10.24.38:901][849]LogDirectoryWatcher: A directory notification failed for 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/Developers/andre/Collections/' because it could not be accessed. Aborting watch request...
 [2021.06.02-10.24.38:901][849]LogDirectoryWatcher: A directory notification failed for 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2021.06.02-10.27.29:159][ 20]LogActorFactory: Actor Factory created SM_Cave_Brick_01a2
+[2021.06.02-10.27.31:278][146]LogActorFactory: Actor Factory created SM_Cave_Brick_01a2
+[2021.06.02-10.27.32:694][225]Cmd: TRANSACTION UNDO
+[2021.06.02-10.27.32:694][225]LogEditorTransaction: Undo Crear actores
+[2021.06.02-10.27.32:717][225]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.02-10.28.00:134][847]LogMaterial: Display: Missing cached shader map for material M_StatueGlass, compiling. 
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 45
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 39
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 33
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 27
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 21
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2021.06.02-10.28.00:294][847]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.06.02-10.28.00:294][847]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2021.06.02-10.28.00:323][847]LogMaterial: Display: Missing cached shader map for material M_TableRound, compiling. 
+[2021.06.02-10.28.00:430][847]LogMaterial: Display: Missing cached shader map for material M_Statue, compiling. 
+[2021.06.02-10.28.00:569][847]LogStaticMesh: Generando la malla estática Floor_400x400...
+[2021.06.02-10.28.00:595][847]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2021.06.02-10.28.00:626][847]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2021.06.02-10.28.00:650][847]LogMaterial: Display: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2021.06.02-10.28.00:679][847]LogMaterial: Display: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2021.06.02-10.28.00:700][847]LogMaterial: Display: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2021.06.02-10.28.03:046][974]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 148
+[2021.06.02-10.28.13:016][540]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 138
+[2021.06.02-10.28.15:397][673]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 128
+[2021.06.02-10.28.17:033][771]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 118
+[2021.06.02-10.28.18:200][841]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 108
+[2021.06.02-10.28.18:200][841]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 98
+[2021.06.02-10.28.21:213][ 20]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 88
+[2021.06.02-10.28.21:495][ 37]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 78
+[2021.06.02-10.28.22:097][ 73]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 68
+[2021.06.02-10.28.23:289][144]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 59
+[2021.06.02-10.28.24:995][246]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 51
+[2021.06.02-10.28.26:117][313]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 44
+[2021.06.02-10.28.27:147][371]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 38
+[2021.06.02-10.28.28:225][435]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 33
+[2021.06.02-10.28.29:155][490]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 28
+[2021.06.02-10.28.29:586][516]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 24
+[2021.06.02-10.28.29:783][528]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2021.06.02-10.28.30:625][577]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2021.06.02-10.28.31:229][613]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2021.06.02-10.28.31:313][618]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2021.06.02-10.28.31:329][619]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.28.32:736][702]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.06.02-10.28.33:393][737]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.06.02-10.28.33:440][740]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2021.06.02-10.28.33:782][757]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.06.02-10.28.33:831][760]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.06.02-10.28.33:864][762]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.06.02-10.28.33:980][767]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2021.06.02-10.28.34:895][816]LogActorFactory: Actor Factory created SM_CycRoom_01
+[2021.06.02-10.28.37:161][952]LogActorFactory: Actor Factory created SM_CycRoom_01
+[2021.06.02-10.28.38:647][ 41]LogActorFactory: Actor Factory created SM_CycRoom_01
+[2021.06.02-10.28.47:013][541]Cmd: TRANSACTION UNDO
+[2021.06.02-10.28.47:013][541]LogEditorTransaction: Undo Move Actors
+[2021.06.02-10.28.47:740][576]Cmd: TRANSACTION UNDO
+[2021.06.02-10.28.47:740][576]LogEditorTransaction: Undo Crear actores
+[2021.06.02-10.29.21:230][552]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2021.06.02-10.29.21:238][552]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.06.02-10.29.21:238][552]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.06.02-10.29.21:238][552]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.06.02-10.29.21:238][552]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.06.02-10.29.21:238][552]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2021.06.02-10.29.21:281][552]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2021.06.02-10.29.21:281][552]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.06.02-10.29.21:281][552]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2021.06.02-10.29.21:281][552]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.06.02-10.29.21:281][552]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2021.06.02-10.29.21:292][552]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2021.06.02-10.29.21:320][552]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2021.06.02-10.29.21:330][552]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2021.06.02-10.29.21:370][552]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:380][552]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:389][552]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:433][552]LogMaterial: Display: Missing cached shader map for material ColorMaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:440][552]LogMaterial: Display: Missing cached shader map for material ColorMaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:462][552]LogMaterial: Display: Missing cached shader map for material LandscapeDirtyMaterial, compiling. 
+[2021.06.02-10.29.21:470][552]LogMaterial: Display: Missing cached shader map for material LandscapeDirtyMaterial, compiling. 
+[2021.06.02-10.29.21:533][552]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2021.06.02-10.29.21:542][552]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2021.06.02-10.29.21:599][552]LogMaterial: Display: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2021.06.02-10.29.21:633][552]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 174
+[2021.06.02-10.29.21:633][552]LogMaterial: Display: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2021.06.02-10.29.21:674][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:683][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:694][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:726][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:755][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:767][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:799][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:808][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:851][552]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 270
+[2021.06.02-10.29.21:851][552]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2021.06.02-10.29.21:864][552]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2021.06.02-10.29.21:892][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:904][552]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2021.06.02-10.29.21:936][552]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:948][552]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 334
+[2021.06.02-10.29.21:948][552]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2021.06.02-10.29.21:971][552]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2021.06.02-10.29.22:035][552]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 352
+[2021.06.02-10.29.22:035][552]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 342
+[2021.06.02-10.29.22:035][552]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 332
+[2021.06.02-10.29.22:035][552]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 322
+[2021.06.02-10.29.22:035][552]LogSlate: Took 0.000804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.02-10.29.22:085][552]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 312
+[2021.06.02-10.29.25:783][750]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.29.27:139][831]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.29.28:312][895]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 302
+[2021.06.02-10.29.28:363][898]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 292
+[2021.06.02-10.29.28:945][931]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 282
+[2021.06.02-10.29.29:379][956]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 272
+[2021.06.02-10.29.29:955][986]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 262
+[2021.06.02-10.29.30:023][990]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 252
+[2021.06.02-10.29.30:041][991]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 242
+[2021.06.02-10.29.30:524][ 19]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 232
+[2021.06.02-10.29.35:573][315]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 222
+[2021.06.02-10.29.35:671][321]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 212
+[2021.06.02-10.29.35:878][333]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 202
+[2021.06.02-10.29.35:916][335]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 192
+[2021.06.02-10.29.36:297][358]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 182
+[2021.06.02-10.29.36:499][370]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 172
+[2021.06.02-10.29.36:814][386]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 162
+[2021.06.02-10.29.37:045][400]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 152
+[2021.06.02-10.29.41:340][644]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 142
+[2021.06.02-10.29.43:329][760]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 132
+[2021.06.02-10.29.43:675][780]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 122
+[2021.06.02-10.29.43:871][791]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 112
+[2021.06.02-10.29.43:922][794]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 102
+[2021.06.02-10.29.43:982][797]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 92
+[2021.06.02-10.29.44:192][810]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 82
+[2021.06.02-10.29.45:055][861]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 72
+[2021.06.02-10.29.47:511][  8]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 62
+[2021.06.02-10.29.48:741][ 81]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 54
+[2021.06.02-10.29.49:463][123]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2021.06.02-10.29.49:464][123]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 41
+[2021.06.02-10.29.50:426][174]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 35
+[2021.06.02-10.29.50:806][195]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 30
+[2021.06.02-10.29.51:326][225]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 26
+[2021.06.02-10.29.51:635][243]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2021.06.02-10.29.52:902][319]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2021.06.02-10.29.53:036][327]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2021.06.02-10.29.53:084][329]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2021.06.02-10.29.53:248][339]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2021.06.02-10.29.53:296][342]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2021.06.02-10.29.53:296][342]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2021.06.02-10.29.53:951][381]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2021.06.02-10.29.54:651][422]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2021.06.02-10.29.54:701][424]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2021.06.02-10.29.54:789][429]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.06.02-10.29.55:115][448]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.06.02-10.29.55:300][459]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2021.06.02-10.31.10:360][245]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2021.06.02-10.31.50:659][651]LogTexture: Display: Building textures: T_LV_Forest_Foliage02_D (AutoDXT, 512X1024)
+[2021.06.02-10.31.50:659][651]LogTexture: Display: Building textures: T_LV_Forest_Foliage02_N (BC5, 512X1024)
+[2021.06.02-10.31.50:659][651]LogMaterial: Display: Missing cached shader map for material M_Soul_Grass04, compiling. 
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 49
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 42
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 28
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 21
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.31.50:720][651]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2021.06.02-10.31.54:567][881]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.31.56:557][  0]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.32.10:916][794]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2021.06.02-10.32.10:917][794]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2021.06.02-10.32.10:918][794]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2021.06.02-10.32.10:930][794]LogMaterial: Display: Missing cached shader map for material M_Soul_Grass04, compiling. 
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 94
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 84
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 74
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 64
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 54
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 44
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 34
+[2021.06.02-10.32.11:136][794]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 24
+[2021.06.02-10.32.12:370][794]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.32.14:584][848]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.32.15:237][886]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.06.02-10.32.15:485][901]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.32.15:731][912]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.06.02-10.32.16:271][935]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.06.02-10.32.16:271][935]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.06.02-10.32.16:441][942]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2021.06.02-10.32.16:665][952]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2021.06.02-10.32.17:117][976]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.06.02-10.32.17:529][999]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2021.06.02-10.32.17:745][ 11]Cmd: TRANSACTION UNDO
+[2021.06.02-10.32.17:745][ 11]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2021.06.02-10.32.27:808][570]Cmd: TRANSACTION UNDO
+[2021.06.02-10.32.27:808][570]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2021.06.02-10.32.37:349][129]Cmd: TRANSACTION UNDO
+[2021.06.02-10.32.37:349][129]LogEditorTransaction: Undo Creando nuevo terreno
+[2021.06.02-10.32.37:925][129]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.32.37:948][129]Cmd: TRANSACTION UNDO
+[2021.06.02-10.32.37:948][129]LogEditorTransaction: Undo Editar Material
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2021.06.02-10.32.46:968][603]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2021.06.02-10.32.46:970][603]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2021.06.02-10.32.46:970][603]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2021.06.02-10.32.46:978][603]LogMaterial: Display: Missing cached shader map for material M_Soul_TreeDead, compiling. 
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 44
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 38
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2021.06.02-10.32.47:321][603]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.06.02-10.32.48:470][603]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.33.08:466][718]Cmd: TRANSACTION UNDO
+[2021.06.02-10.33.08:466][718]LogEditorTransaction: Undo Creando nuevo terreno
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2021.06.02-10.33.20:477][331]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2021.06.02-10.33.20:487][331]LogMaterial: Display: Missing cached shader map for material M_Soul_TwistedTree, compiling. 
+[2021.06.02-10.33.20:533][331]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 44
+[2021.06.02-10.33.20:533][331]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 38
+[2021.06.02-10.33.20:533][331]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2021.06.02-10.33.20:533][331]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2021.06.02-10.33.20:533][331]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2021.06.02-10.33.20:533][331]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.33.20:534][331]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2021.06.02-10.33.20:534][331]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.06.02-10.33.22:201][331]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.34.12:337][258]Cmd: TRANSACTION UNDO
+[2021.06.02-10.34.12:337][258]LogEditorTransaction: Undo Creando nuevo terreno
+[2021.06.02-10.34.12:895][258]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2021.06.02-10.34.23:200][796]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2021.06.02-10.34.23:201][796]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2021.06.02-10.34.23:208][796]LogMaterial: Display: Missing cached shader map for material M_Soul_Tree03, compiling. 
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 94
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 84
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 74
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 64
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 54
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 44
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 34
+[2021.06.02-10.34.24:010][796]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 24
+[2021.06.02-10.34.25:290][796]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.34.26:903][834]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.34.27:883][877]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.06.02-10.34.28:393][906]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.34.28:571][916]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.06.02-10.34.28:827][929]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.06.02-10.34.29:199][950]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2021.06.02-10.34.29:277][954]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2021.06.02-10.34.29:603][973]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2021.06.02-10.34.29:956][994]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.06.02-10.34.29:956][994]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2021.06.02-10.34.38:446][485]Cmd: TRANSACTION UNDO
+[2021.06.02-10.34.38:446][485]LogEditorTransaction: Undo Creando nuevo terreno
+[2021.06.02-10.34.38:954][485]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.34.51:713][115]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.06.02-10.34.51:713][115]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2021.06.02-10.34.51:713][115]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.34.51:713][115]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2021.06.02-10.34.51:713][115]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2021.06.02-10.34.51:713][115]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2021.06.02-10.34.51:714][115]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2021.06.02-10.34.51:723][115]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2021.06.02-10.34.51:726][115]LogMaterial: Display: Missing cached shader map for material M_Soul_Tree001, compiling. 
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 94
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 84
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 74
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 64
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 54
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 44
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 34
+[2021.06.02-10.34.51:828][115]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 24
+[2021.06.02-10.34.54:407][115]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.34.55:396][118]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.34.56:302][168]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.06.02-10.34.56:616][175]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.06.02-10.34.56:750][183]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.06.02-10.34.56:912][192]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.06.02-10.34.57:483][222]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2021.06.02-10.34.57:645][230]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2021.06.02-10.34.58:090][255]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2021.06.02-10.34.58:327][268]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.06.02-10.34.58:517][279]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2021.06.02-10.35.37:033][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.06.02-10.35.37:979][558]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/StartupMap_Auto19E1598DA40801C133A04F39122501F3F.tmp' to '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap'
+[2021.06.02-10.35.37:985][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 1.091
+[2021.06.02-10.35.37:985][558]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.091
+[2021.06.02-10.37.14:580][  3]Cmd: TRANSACTION UNDO
+[2021.06.02-10.37.14:580][  3]LogEditorTransaction: Undo Creando nuevo terreno
+[2021.06.02-10.37.14:993][  3]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.06.02-10.37.19:288][459]LogMaterial: Display: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2021.06.02-10.37.19:301][459]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2021.06.02-10.37.19:301][459]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2021.06.02-10.37.19:301][459]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2021.06.02-10.37.19:301][459]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2021.06.02-10.37.19:301][459]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2021.06.02-10.37.19:301][459]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2021.06.02-10.37.22:806][690]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2021.06.02-10.37.22:807][690]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2021.06.02-10.37.22:807][690]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2021.06.02-10.37.22:807][690]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2021.06.02-10.37.22:808][690]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2021.06.02-10.37.22:808][690]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2021.06.02-10.37.22:808][690]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2021.06.02-10.37.22:808][690]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2021.06.02-10.37.22:808][690]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2021.06.02-10.37.22:814][690]LogMaterial: Display: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 44
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 38
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2021.06.02-10.37.23:123][690]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.06.02-10.37.24:054][690]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.02-10.37.32:896][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.06.02-10.37.33:493][568]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Saved/StartupMapCDE82921493F7FF7DBE316B8846A81A1.tmp' to '../../../../../../Users/andre/OneDrive/Escritorio/UCM/Tercero/EIRV/Unreal/ProyectoFinal/VR_Unreal/ProyectoFinalVR/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2021.06.02-10.37.33:530][568]AssetCheck: New page: Asset Save: StartupMap
+[2021.06.02-10.37.33:530][568]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
